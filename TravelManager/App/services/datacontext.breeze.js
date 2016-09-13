@@ -44,7 +44,8 @@
         // get travel request list ID
         function getTravelRequestListId() {
             // NEED TO FIGURE OUT HOW TO GET THE LIST ID.... to get this to work!
-           }
+            // Testing 
+        }
 
         // retrieve all travel requests, using ngHttp service
         function getTravelRequests() {
