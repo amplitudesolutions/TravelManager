@@ -1,0 +1,58 @@
+﻿<div data-ng-controller="dashboard as vm">
+    <div class="ms-Grid">
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm12">
+                <button class="ms-Button ms-Button--primary" data-ng-click="vm.createTravelRequest()">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label"><i class="fa fa-plane"></i>&nbsp;&nbsp;Create Travel Request</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>
+                <button class="ms-Button" data-ng-click="vm.settingsClick()">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label"><i class="fa fa-cog"></i>&nbsp;&nbsp;Settings</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>
+                <!--<button class="ms-Button">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label">Your Travel Requests</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>-->
+            </div>
+            <!--<button class="ms-Button ms-Button--hero">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                <span class="ms-Button-label">Create Travel Request</span>
+                <span class="ms-Button-description">Description of the action this button takes</span>
+            </button>-->
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm2">
+                <div style="margin-top:10px; height: 290px;" class="ms-bgColor-neutralLighter">
+                    <div style="padding: 10px 20px; height:30px" class="ms-bgColor-themePrimary od-Tips-header"><h3 class="ms-font-xl ms-fontColor-white ms-fontWeight-light">Saved Requests</h3></div>
+                    <div style="padding:10px;">
+                        <p data-ng-repeat="tr in vm.travelRequests"><a data-ng-click="vm.openRequest(tr.Id)">{{tr.Title}}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm2">
+                <div style="margin-top:10px; height: 290px;" class="ms-bgColor-neutralLighter">
+                    <div style="padding: 10px 20px; height:30px" class="ms-bgColor-magentaDark od-Tips-header"><h3 class="od-Tips-headerTag ms-font-xl ms-fontColor-white ms-fontWeight-light">Upcoming Trips</h3></div>
+                    <div style="padding:10px;">
+                        <p>Nothing Here</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm2">
+                <div style="margin-top:10px; height: 290px;" class="ms-bgColor-neutralLighter">
+                    <div style="padding: 10px 20px; height:30px" class="ms-bgColor-greenDark od-Tips-header"><h3 class="od-Tips-headerTag ms-font-xl ms-fontColor-white ms-fontWeight-light">Trip Expenses</h3></div>
+                    <div style="padding:10px;">
+                        <p>Nothing Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+   
+
+</div>

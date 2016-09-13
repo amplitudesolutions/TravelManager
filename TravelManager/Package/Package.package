@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="97a419a1-f2af-499a-befb-ada0d1c2c0a6" solutionId="97a419a1-f2af-499a-befb-ada0d1c2c0a6" resetWebServer="false" sharePointProductVersion="16.0" name="TravelManager" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="580e3948-00b2-4265-ae23-45876d3d266e" />
+    <featureReference itemId="05bfed12-bc51-42e3-962c-b7394d2a0d35" />
+  </features>
+</package>

@@ -1,0 +1,105 @@
+﻿<div data-ng-controller="travelRequestsDetail as trd">
+
+    <div class="ms-Grid">
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm4">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Purpose of Trip</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.Title">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm4">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Destination</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.Destination">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Arrival Date</label>
+                    <!--<input class="ms-TextField-field">-->
+                    <!--<uif-datepicker data-ng-model="trd.travelRequest.ArrivalDate" />-->
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Departure Date</label>
+                    <!--<input class="ms-TextField-field">-->
+                    <!--<uif-datepicker data-ng-model="trd.travelRequest.DepartureDate" />-->
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm2">
+                <label class="ms-Label">
+                    <b class="ms-fontSize-l">Estimated Expenses</b>
+                </label>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Transportation</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.TravelCosts">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+            <!--</div>
+        <div class="ms-Grid-row">-->
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Accommodations</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.AccomodationCosts">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Meals</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.MealCosts">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+            <!--</div>
+        <div class="ms-Grid-row">-->
+            <div class="ms-Grid-col ms-u-sm2">
+                <div class="ms-TextField">
+                    <label class="ms-Label">Miscellaneous</label>
+                    <input class="ms-TextField-field" data-ng-model="trd.travelRequest.MiscCosts">
+                    <!--                <span class="ms-TextField-description">This should be your first and last name.</span>-->
+                </div>
+            </div>
+        </div>
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-u-sm-6">
+                <button class="ms-Button" data-ng-click="trd.goCancel()">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label">Cancel</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>
+                <button class="ms-Button">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label" data-ng-click="trd.goSave()">Save for Later</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>
+                <button class="ms-Button ms-Button--primary">
+                    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                    <span class="ms-Button-label" data-ng-click="trd.goSave()">Submit for Approval</span>
+                    <span class="ms-Button-description">Description of the action this button takes</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+</div>

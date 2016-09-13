@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Travel Requests" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/TravelRequests" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Purpose">SharePoint 2013 Development Overview</Field>
+          <Field Name="TransporationCosts">123</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Office.Color.Variables.scss" Url="Content/sass/_Office.Color.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.ZIndex.Variables.scss" Url="Content/sass/_Fabric.ZIndex.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Utilities.scss" Url="Content/sass/_Fabric.Utilities.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Typography.Variables.scss" Url="Content/sass/_Fabric.Typography.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Typography.scss" Url="Content/sass/_Fabric.Typography.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Typography.Language.Overrides.scss" Url="Content/sass/_Fabric.Typography.Language.Overrides.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Typography.Fonts.scss" Url="Content/sass/_Fabric.Typography.Fonts.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Responsive.Variables.scss" Url="Content/sass/_Fabric.Responsive.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Responsive.Utilities.Variables.scss" Url="Content/sass/_Fabric.Responsive.Utilities.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Mixins.scss" Url="Content/sass/_Fabric.Mixins.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Mixins.RTL.scss" Url="Content/sass/_Fabric.Mixins.RTL.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Icons.scss" Url="Content/sass/_Fabric.Icons.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Grid.scss" Url="Content/sass/_Fabric.Grid.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Common.scss" Url="Content/sass/_Fabric.Common.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Color.Variables.scss" Url="Content/sass/_Fabric.Color.Variables.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Color.Mixins.scss" Url="Content/sass/_Fabric.Color.Mixins.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Animations.scss" Url="Content/sass/_Fabric.Animations.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\_Fabric.Animations.RTL.scss" Url="Content/sass/_Fabric.Animations.RTL.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Utilities.Output.scss" Url="Content/sass/Fabric.Utilities.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Typography.Output.scss" Url="Content/sass/Fabric.Typography.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Typography.Language.Overrides.Output.scss" Url="Content/sass/Fabric.Typography.Language.Overrides.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Typography.Fonts.Output.scss" Url="Content/sass/Fabric.Typography.Fonts.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.scss" Url="Content/sass/Fabric.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.RTL.scss" Url="Content/sass/Fabric.RTL.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Responsive.Utilities.Output.scss" Url="Content/sass/Fabric.Responsive.Utilities.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Icons.RTL.Output.scss" Url="Content/sass/Fabric.Icons.RTL.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Icons.Output.scss" Url="Content/sass/Fabric.Icons.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Icons.Font.Output.scss" Url="Content/sass/Fabric.Icons.Font.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Grid.Output.scss" Url="Content/sass/Fabric.Grid.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Components.scss" Url="Content/sass/Fabric.Components.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Color.Mixins.Output.scss" Url="Content/sass/Fabric.Color.Mixins.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Animations.RTL.Output.scss" Url="Content/sass/Fabric.Animations.RTL.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\sass\Fabric.Animations.Output.scss" Url="Content/sass/Fabric.Animations.Output.scss" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.rtl.min.css" Url="Content/fabric.rtl.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.rtl.css" Url="Content/fabric.rtl.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.min.css" Url="Content/fabric.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.css" Url="Content/fabric.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.components.rtl.min.css" Url="Content/fabric.components.rtl.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.components.rtl.css" Url="Content/fabric.components.rtl.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.components.min.css" Url="Content/fabric.components.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\fabric.components.css" Url="Content/fabric.components.css" ReplaceContent="TRUE" />
+    <File Path="Content\breeze.directives.css" Url="Content/breeze.directives.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

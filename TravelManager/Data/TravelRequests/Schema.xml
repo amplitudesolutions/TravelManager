@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="TravelRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/TravelRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010045ae17962c844fc9adddbffbbd76bc69" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{e7c4ffe2-7f86-47a1-9e16-648212abce0a}" Name="TravelCosts" /><FieldRef ID="{fcb9b629-85e4-49a0-8228-2d7899770778}" Name="AccomodationCosts" /><FieldRef ID="{ff66bd2f-6cb2-47ff-8af6-cb29f4a5b561}" Name="MiscCosts" /><FieldRef ID="{e746e292-8d29-4243-a732-1ee7df2afec8}" Name="MealCosts" /><FieldRef ID="{ebe8c7b2-b5bd-4962-9f00-ea21266b24eb}" Name="ArrivalDate" /><FieldRef ID="{b8be5d8a-93fe-48cf-a577-e8a8b5aeeafe}" Name="DepartureDate" /><FieldRef ID="{ae6c3eb4-3a5c-4099-84e7-a46c91553a03}" Name="Destination" /><FieldRef ID="{6ee313ff-04a3-4e4c-9136-2b1cbe9314ad}" Name="ApprovedState" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Purpose" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="TravelCosts" ID="{e7c4ffe2-7f86-47a1-9e16-648212abce0a}" DisplayName="TravelCosts" Type="Currency" /><Field Name="AccomodationCosts" ID="{fcb9b629-85e4-49a0-8228-2d7899770778}" DisplayName="AccomodationCosts" Type="Currency" /><Field Name="MiscCosts" ID="{ff66bd2f-6cb2-47ff-8af6-cb29f4a5b561}" DisplayName="MiscCosts" Type="Currency" /><Field Name="MealCosts" ID="{e746e292-8d29-4243-a732-1ee7df2afec8}" DisplayName="MealCosts" Type="Currency" /><Field Name="ArrivalDate" ID="{ebe8c7b2-b5bd-4962-9f00-ea21266b24eb}" DisplayName="ArrivalDate" Type="DateTime" Format="DateOnly" /><Field Name="DepartureDate" ID="{b8be5d8a-93fe-48cf-a577-e8a8b5aeeafe}" DisplayName="DepartureDate" Type="DateTime" Format="DateOnly" /><Field Name="Destination" ID="{ae6c3eb4-3a5c-4099-84e7-a46c91553a03}" DisplayName="Destination" Type="Text" /><Field Name="ApprovedState" ID="{6ee313ff-04a3-4e4c-9136-2b1cbe9314ad}" DisplayName="Approved State" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TravelCosts" /><FieldRef Name="AccomodationCosts" /><FieldRef Name="MiscCosts" /><FieldRef Name="MealCosts" /><FieldRef Name="ArrivalDate" /><FieldRef Name="DepartureDate" /><FieldRef Name="Destination" /><FieldRef Name="ApprovedState" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>
